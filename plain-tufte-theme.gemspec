@@ -3,11 +3,11 @@
 Gem::Specification.new do |spec|
   spec.name          = "plain-tufte-theme"
   spec.version       = "0.1.0"
-  spec.authors       = [""]
-  spec.email         = [""]
+  spec.authors       = ["Pavel Popov"]
+  spec.email         = ["pavelpopov@outlook.com"]
 
   spec.summary       = %q{Minimalistic Jekyll theme based on tufte.css.}
-  spec.homepage      = "pavel-popov.github.io/plain-tufte-theme"
+  spec.homepage      = "https://pavel-popov.github.io/plain-tufte-theme"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|_sass|LICENSE|README)/i}) }
